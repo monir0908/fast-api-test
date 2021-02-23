@@ -9,3 +9,13 @@ class Order(BaseModel):
 
     class Config:
         orm_mode = True
+
+
+
+class Product(BaseModel):
+    id: int
+    product_code: str
+    product_name: str
+
+    class Config:
+        orm_mode = True
