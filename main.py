@@ -32,6 +32,7 @@ def get_db():
         db.close()
 
 
+
 @app.get("/")
 def main():
     return RedirectResponse(url="/docs/")
