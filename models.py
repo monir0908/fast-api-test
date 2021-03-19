@@ -31,3 +31,4 @@ class Test(Base):
     id = Column(Integer, primary_key=True, index=True)
     purchase_id = Column(Integer, ForeignKey("Purchase.id"))    
     qty = Column(Integer)
+

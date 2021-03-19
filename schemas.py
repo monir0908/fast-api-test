@@ -19,3 +19,7 @@ class Product(BaseModel):
 
     class Config:
         orm_mode = True
+
+class Testtable(BaseModel):
+    id: int
+    test_code: str
